@@ -224,9 +224,9 @@ def process_excel_file(uploaded_file):
     return df_final
 
 # Streamlit App
-st.set_page_config(page_title="Conversor Receitas Despesas Analítico", layout="wide")
+st.set_page_config(page_title="Solar Trindade - Receitas e Despesas", layout="wide")
 
-st.title("Conversor Receitas Despesas Analítico")
+st.title("🏢 Solar Trindade - 💰 Receitas e Despesas 💰")
 
 st.markdown("""
 Esta ferramenta converte o seu arquivo Excel de receitas e despesas em um formato analítico padronizado.
